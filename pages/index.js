@@ -1,35 +1,70 @@
-export default function Projects() {
+import Head from "next/head";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
+import Projects from "@/components/Projects"; // ✅ ADD THIS
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+
+export default function Home() {
   return (
-    <section id="projects" className="py-16">
-      <div className="max-w-6xl mx-auto px-6">
+    <>
+      <Head>
+        <title>
+          Niral Dharmnathi – Technical Project Manager
+        </title>
 
-        <h2 className="text-3xl font-bold mb-8">Projects</h2>
+        <meta
+          name="description"
+          content="Technical Project Manager with 10+ years of experience in Agile delivery, stakeholder management, and scalable web & mobile solutions."
+        />
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <meta name="author" content="Niral Dharmnathi" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
 
-          <div className="p-6 border rounded-xl">
-            <h3 className="font-semibold">Hangouti</h3>
-            <p>Social meetup app with chat and reels.</p>
-          </div>
+      <div className="min-h-screen bg-background text-foreground antialiased">
 
-          <div className="p-6 border rounded-xl">
-            <h3 className="font-semibold">Aevirt EV Platform</h3>
-            <p>EV charging app with booking & payments.</p>
-          </div>
+        {/* Navbar */}
+        <Navbar />
 
-          <div className="p-6 border rounded-xl">
-            <h3 className="font-semibold">MyCality</h3>
-            <p>Multi-vendor e-commerce platform.</p>
-          </div>
+        {/* Hero */}
+        <section id="home">
+          <Hero />
+        </section>
 
-          <div className="p-6 border rounded-xl">
-            <h3 className="font-semibold">WoodenStreet</h3>
-            <p>Furniture website frontend revamp.</p>
-          </div>
+        {/* Main Content */}
+        <main className="max-w-6xl mx-auto px-6 py-12 space-y-12">
 
-        </div>
+          <section id="about">
+            <About />
+          </section>
+
+          <section id="skills">
+            <Skills />
+          </section>
+
+          <section id="experience">
+            <Experience />
+          </section>
+
+          {/* ✅ ADD PROJECTS HERE (ONLY CHANGE) */}
+          <section id="projects">
+            <Projects />
+          </section>
+
+          <section id="contact">
+            <Contact />
+          </section>
+
+        </main>
+
+        {/* Footer */}
+        <Footer />
 
       </div>
-    </section>
+    </>
   );
 }
