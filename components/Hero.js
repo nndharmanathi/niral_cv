@@ -39,7 +39,7 @@ export default function Hero() {
         {/* Right Image */}
         <div className="flex justify-center">
           <Image
-            src="/niral.png"
+            src="/niral.jpg"
             alt="Niral Dharmnathi"
             width={300}
             height={300}
