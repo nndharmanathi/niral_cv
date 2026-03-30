@@ -2,9 +2,11 @@ export default function Footer() {
   return (
     <footer className="border-t border-gray-200 py-8 mt-16">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
+        
         <p>
-          © {new Date().getFullYear()} Niral Dharmnathi Niral Dharmnathi. All rights reserved.
+          © {new Date().getFullYear()} Niral Dharmnathi. All rights reserved.
         </p>
+
       </div>
     </footer>
   );
