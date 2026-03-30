@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
-import Certifications from "@/components/Certifications";
+import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -12,56 +12,63 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Niral Dharmnathi Niral Dharmnathi – Project Manager | Agile & AI Project Coordinator</title>
+        <title>
+          Niral Dharmnathi – Technical Project Manager | Agile & Product Delivery
+        </title>
 
         <meta
           name="description"
-          content="Niral Dharmnathi Niral Dharmnathi – Project Manager from Ahmedabad with 8+ years of IT experience. Google Project Management Certified and Agile practitioner specializing in AI-driven project delivery, stakeholder management, and digital transformation."
+          content="Niral Dharmnathi is a Technical Project Manager with 10+ years of experience in IT, specializing in Agile delivery, stakeholder management, and scalable web & mobile solutions across EV, healthcare, and e-commerce domains."
         />
 
         <meta
           name="keywords"
-          content="Niral Dharmnathi Niral Dharmnathi, Project Manager, Agile Project Manager, AI Project Manager, Google PM Certified, IT Project Manager Ahmedabad"
+          content="Niral Dharmnathi, Technical Project Manager, Agile Project Manager, IT Project Manager, Ahmedabad, Mobile App Projects, Web Development"
         />
 
-        <meta name="author" content="Niral Dharmnathi Niral Dharmnathi" />
-
+        <meta name="author" content="Niral Dharmnathi" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        {/* Open Graph (LinkedIn / Facebook Preview) */}
-        <meta property="og:title" content="Niral Dharmnathi Niral Dharmnathi – Project Manager Portfolio" />
+        {/* Open Graph */}
+        <meta
+          property="og:title"
+          content="Niral Dharmnathi – Technical Project Manager Portfolio"
+        />
         <meta
           property="og:description"
-          content="Project Manager with 8+ years of IT experience specializing in Agile, AI projects, and stakeholder management."
+          content="10+ years experienced Technical Project Manager delivering scalable digital products."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://abhai-surti-pm.vercel.app" />
 
-        {/* Twitter Preview */}
+        {/* (Optional: update later if you deploy) */}
+        <meta property="og:url" content="https://your-portfolio.vercel.app" />
+
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Niral Dharmnathi Niral Dharmnathi – Project Manager" />
+        <meta
+          name="twitter:title"
+          content="Niral Dharmnathi – Technical Project Manager"
+        />
         <meta
           name="twitter:description"
-          content="Google Project Management Certified professional with 8+ years in IT project delivery."
+          content="Experienced TPM with expertise in Agile, team leadership, and product delivery."
         />
 
-        {/* Canonical URL */}
-        <link rel="canonical" href="https://abhai-surti-pm.vercel.app" />
+        {/* Canonical */}
+        <link rel="canonical" href="https://your-portfolio.vercel.app" />
       </Head>
 
       <div className="min-h-screen bg-background text-foreground antialiased">
-        {/* Navigation */}
-        <header>
-          <Navbar />
-        </header>
+        
+        {/* Navbar */}
+        <Navbar />
 
-        {/* Hero Section */}
-        <section id="home">
-          <Hero />
-        </section>
+        {/* Hero */}
+        <Hero />
 
-        {/* Main Content */}
-        <main className="max-w-6xl mx-auto px-6 py-12 space-y-12">
+        {/* Main Sections */}
+        <main className="max-w-6xl mx-auto px-6 py-12 space-y-16">
+          
           <section id="about">
             <About />
           </section>
@@ -74,19 +81,19 @@ export default function Home() {
             <Experience />
           </section>
 
-          <section id="certifications">
-            <Certifications />
+          {/* ✅ Added Projects */}
+          <section id="projects">
+            <Projects />
           </section>
 
           <section id="contact">
             <Contact />
           </section>
+
         </main>
 
         {/* Footer */}
-        <footer>
-          <Footer />
-        </footer>
+        <Footer />
       </div>
     </>
   );
