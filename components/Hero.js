@@ -9,7 +9,7 @@ export default function Hero() {
 
           <img
             src="/niral.jpg"
-            alt="Niral Dharmnathi Niral Dharmnathi Project Manager Profile Picture"
+            alt="Niral Dharmnathi Profile Picture"
             className="relative w-36 h-36 md:w-44 md:h-44 rounded-full border-4 border-primary shadow-lg object-cover object-top"
           />
         </div>
@@ -18,46 +18,37 @@ export default function Hero() {
         <div className="text-center md:text-left max-w-xl">
 
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Hi, I’m <span className="text-primary">Niral Dharmnathi Niral Dharmnathi</span>
+            Hi, I’m <span className="text-primary">Niral Dharmnathi</span>
           </h1>
 
           <p className="mt-4 text-xl md:text-2xl font-medium opacity-90">
-            Project Manager · Google PM Certified
+            Technical Project Manager
           </p>
 
           {/* Tagline */}
           <p className="mt-4 text-lg md:text-xl opacity-80 leading-relaxed">
-            Leading <span className="text-primary">Agile teams</span> and delivering
-            <span className="text-primary"> AI-driven IT solutions</span> with a focus on
-            stakeholder alignment, strategic execution, and digital transformation.
+            10+ years of experience delivering scalable web and mobile solutions, 
+            leading Agile teams, and managing 25+ projects across EV, Healthcare, 
+            E-commerce, and Social platforms.
           </p>
 
           {/* Buttons */}
           <div className="mt-6 flex flex-wrap gap-4 justify-center md:justify-start">
 
             <a
-              href="https://drive.google.com/uc?export=download&id=11EK9msbaBOlM34MAudGD1rHARvMDHffh"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contact"
               className="btn-primary"
             >
-              Download CV
+              Contact Me
             </a>
 
             <a
-              href="https://www.linkedin.com/in/abhai-surti-b20854140"
+              href="https://www.linkedin.com/in/niral-dharmnathi-2212268b"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-lg border border-primary text-primary hover:bg-primary hover:text-white transition"
             >
               LinkedIn Profile
-            </a>
-
-            <a
-              href="#contact"
-              className="px-6 py-3 rounded-lg border border-white/20 hover:border-primary hover:text-primary transition"
-            >
-              Contact Me
             </a>
 
           </div>
