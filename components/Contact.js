@@ -13,36 +13,36 @@ export default function Contact() {
 
           <p className="text-gray-700 mb-8">
             I’m always open to discussing opportunities in
-            <span className="text-primary"> Project Management</span>,
+            <span className="text-primary"> Technical Project Management</span>,
             <span className="text-primary"> Agile Leadership</span>, and
-            <span className="text-primary"> Digital Transformation</span>.
+            <span className="text-primary"> Digital Product Development</span>.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 text-sm">
 
             <div className="flex items-center gap-3">
               <FaEnvelope className="text-primary" />
-              <a href="mailto:surti.abhai007@gmail.com" className="hover:underline">
-                surti.abhai007@gmail.com
+              <a href="mailto:nndharmnathi@gmail.com" className="hover:underline">
+                nndharmnathi@gmail.com
               </a>
             </div>
 
             <div className="flex items-center gap-3">
               <FaWhatsapp className="text-primary" />
               <a
-                href="https://wa.me/918238218235"
+                href="https://wa.me/916352734040"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
               >
-                +91-8238218235
+                +91 63527 34040
               </a>
             </div>
 
             <div className="flex items-center gap-3">
               <FaLinkedin className="text-primary" />
               <a
-                href="https://www.linkedin.com/in/abhai-surti-b20854140"
+                href="https://www.linkedin.com/in/niral-dharmnathi-2212268b"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
