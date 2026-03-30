@@ -8,7 +8,7 @@ export default function Hero() {
           <div className="absolute inset-0 rounded-full bg-primary/30 blur-xl opacity-40"></div>
 
           <img
-            src="/image.png"
+            src="/niral.jpg"
             alt="Niral Dharmnathi Niral Dharmnathi Project Manager Profile Picture"
             className="relative w-36 h-36 md:w-44 md:h-44 rounded-full border-4 border-primary shadow-lg object-cover object-top"
           />
