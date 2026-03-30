@@ -1,18 +1,35 @@
 export default function Skills() {
 
   const skills = [
-    "Agile & Scrum (Certified)",
-    "Digital Transformation Practices",
-    "End-to-End Project Lifecycle Management",
-    "Cross-functional Team Leadership",
-    "Stakeholder & Client Communication",
-    "AI / ML Project Delivery",
+    // Project Management
+    "Agile Methodologies (Scrum, Kanban)",
+    "End-to-End Project Management",
+    "Project Planning & Execution",
     "Risk & Issue Management",
-    "Tools: Jira, Trello, ClickUp, Asana",
-    "Resource Allocation & Reporting",
-    "Documentation & Requirement Analysis",
-    "Process Improvement & Efficiency Boost",
-    "Global Client Project Management",
+
+    // Leadership
+    "Team Leadership (50+ Members)",
+    "Stakeholder & Client Management",
+    "Cross-functional Team Collaboration",
+    "Team Building & Mentorship",
+
+    // Technical Understanding
+    "Mobile & Web Technologies",
+    "React, Next.js, Node.js",
+    "Flutter, Android (Kotlin), iOS (Swift)",
+    "API & Third-party Integrations",
+
+    // Tools & Process
+    "Jira, Trello, ClickUp",
+    "Sprint Planning & Delivery",
+    "Requirement Gathering & Documentation",
+    "UAT & Go-Live Management",
+
+    // Business & Strategy
+    "Cost Control & Resource Allocation",
+    "Client Relationship Management",
+    "Process Optimization",
+    "Global Project Delivery"
   ];
 
   return (
