@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
-import Projects from "@/components/Projects"; // ✅ ADD THIS
+import Projects from "@/components/Projects"; // ✅ correct import
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -50,7 +50,7 @@ export default function Home() {
             <Experience />
           </section>
 
-          {/* ✅ ADD PROJECTS HERE (ONLY CHANGE) */}
+          {/* ✅ Projects Section (Added properly) */}
           <section id="projects">
             <Projects />
           </section>
