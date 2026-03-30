@@ -5,7 +5,7 @@ export default function Navbar() {
 
         {/* Logo / Name */}
         <h1 className="text-xl font-bold text-primary">
-          Niral Dharmnathi Niral Dharmnathi
+          Niral Dharmnathi
         </h1>
 
         {/* Navigation */}
@@ -27,8 +27,8 @@ export default function Navbar() {
             Experience
           </a>
 
-          <a href="#certifications" className="hover:text-primary transition">
-            Certifications
+          <a href="#projects" className="hover:text-primary transition">
+            Projects
           </a>
 
           <a href="#contact" className="hover:text-primary transition">
